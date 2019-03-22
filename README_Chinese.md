@@ -4,7 +4,7 @@
 
 #### 它可以让你十分简单地启动一个golang 的 grpc 环境 
 
-#### 英文文档[English Document](README.md)
+#### 英文文档 [English Document](README.md)
 
 
 
@@ -15,7 +15,7 @@
 
 2. 使用这条命令为你的项目启动一个容器。然后你就可以在本地开发，开发完后进入你的容器运行你的代码。
 ### 
-```bash
+```
 $ docker run --name <要启动的容器名称>  -v <你的项目本地地址>:/gopath/src/<你的项目名称> -d zengyifei/go-grpc:latest
 ```
 
