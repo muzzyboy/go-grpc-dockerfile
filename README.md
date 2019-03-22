@@ -14,7 +14,7 @@
 
 2. Use this command to start a container for your project. And you can write code in your local workspace and come into your container to run your code when you finish.
 ### 
-```bash
+```
 $ docker run --name <container-name>  -v <your project local path>:/gopath/src/<your project name> -d zengyifei/go-grpc:latest
 ```
 
